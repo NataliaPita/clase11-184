@@ -1,0 +1,152 @@
+body{
+    background-color: antiquewhite;
+}
+/*Navbar*/
+.navbar{ 
+ padding: 1rem;   
+ background-color: rgb(227, 11, 11);
+}
+ .navbar-collapse {
+    align-items: center;
+    justify-content:end;
+ }
+
+/*.imagen-logo{
+
+    width: 180px;
+}*/
+.nav-link{
+   color:aliceblue
+}
+/*Carousel*/
+.carousel-texto{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*Style nosotros*/
+
+.nosotros{
+    background-color:aliceblue;
+    padding: 50px;
+}
+.text-nosotros{
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}  
+  
+   
+
+/*style-cards*/
+.cards{
+    padding-top: 120px;
+    background-color:#f2eab7;   
+ }
+ .card-titulo{
+     text-align: center;
+     color: black;
+     font-size: 20px;
+ }
+ .card-container{
+     margin: 30px 60px 30px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+ .card{   
+     width: 250px;
+     height: 280px;
+     border: 1px solid black;
+     border-radius: 5px;
+     background-color:white;
+     margin-left: 10px;
+     box-shadow: 4px 4px black;
+     margin:20px
+ }
+ .card:hover{
+   transform: scale(1.1);
+ 
+ }
+ .card-img{
+     width: 250px;
+     height:150px;
+ }
+ .card-fig{
+     display: flex;
+     flex-direction: column;
+     align-items: center;    
+ }
+ span{
+     color:black;
+     font-size: 12px;  
+ }
+ .card-condicion{
+     color: red;
+ }
+ .card-boton{
+     background-color: red;
+     color:white;
+     width: 80px;
+     height: 35px;
+     padding: 8px;
+     margin-top: 10px;
+     border-radius: 5px;
+     box-shadow: 5px;
+ }
+
+
+
+ /*Contacto*/
+ .formulario{
+    padding: 30px;
+   
+
+ }
+ .mb-8{
+    margin-top: 30px;
+    background-color:white;
+    padding: 30px;
+    width: 50%;
+    border: #272727 solid ;
+    border-radius: 5px; 
+ }
+ video{
+    margin-top: 150px;
+ }
+
+/*footer*/
+.caja {
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 00px;
+    border: 00px;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+}
+
+ul {
+    list-style: none;
+}
+
+h6 {
+    color: #999;
+}
+h3{
+    text-align: center;
+    color: black;
+    text-decoration: underline;    
+}
